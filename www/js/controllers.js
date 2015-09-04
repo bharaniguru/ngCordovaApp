@@ -27,7 +27,7 @@ angular.module('starter.controllers', [])
         $rootScope.$on('$cordovaBatteryStatus:status', function(result) {
             $scope.$apply(function() {
                 // sometimes binding does not work! :/
- 
+                console.log(result);
                 $scope.batteryLevel = result.level; // (0 - 100)
                 $scope.isPluggedIn = result.isPlugged; // bool
             });
