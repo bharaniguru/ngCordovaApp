@@ -8,8 +8,6 @@
       Ionic Framework Team
     </author>
   <content src="index.html"/>
-  <plugin name="Accelerometer" value="org.apache.cordova.AccelListener" />
-  <plugin name="Accelerometer" value="CDVAccelerometer" />
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
